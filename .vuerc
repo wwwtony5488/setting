@@ -1,0 +1,29 @@
+{
+  "useTaobaoRegistry": false,
+  "latestVersion": "3.9.2",
+  "lastChecked": 1562819714697,
+  "packageManager": "yarn",
+  "presets": {
+    "envive-vue-setting": {
+      "useConfigFiles": true,
+      "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-typescript": {
+          "classComponent": true,
+          "tsLint": true,
+          "lintOn": [
+            "save",
+            "commit"
+          ],
+          "useTsWithBabel": true
+        },
+        "@vue/cli-plugin-unit-jest": {},
+        "@vue/cli-plugin-e2e-nightwatch": {}
+      },
+      "router": true,
+      "routerHistoryMode": true,
+      "vuex": true,
+      "cssPreprocessor": "dart-sass"
+    }
+  }
+}
